@@ -1,0 +1,90 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+.venv/
+env/
+.env/
+
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+# =========================
+# Node / React
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Build outputs
+dist/
+build/
+.next/
+
+# =========================
+# IDE
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Testing / Coverage
+# =========================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# =========================
+# Logs
+# =========================
+*.log
+
+# =========================
+# Temporary files
+# =========================
+tmp/
+temp/
+
+# =========================
+# ML checkpoints / large models
+# =========================
+*.pt
+*.pth
+*.ckpt
+
+# ONNX models
+# Remove this line if the model is small enough
+# and should be committed to Git.
+*.onnx
+
+# =========================
+# Datasets
+# =========================
+# Uncomment if datasets should not be committed
+# data/
+# datasets/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+===========================
+# StegoShield runtime files
+keys/
+uploads/

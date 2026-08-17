@@ -1,0 +1,8 @@
+# StegoShield — Person 2: Security & Steganography Module
+# Requirements
+
+pycryptodome==3.20.0
+PyWavelets==1.4.1
+opencv-python==4.9.0.80
+numpy==1.24.3
+scipy==1.11.0
